@@ -162,8 +162,16 @@ button {
         margin-right: 0;
     }
 
+    /*.menu__list {*/
+    /*    display: none;*/
+    /*}*/
     .menu__list {
-        display: none;
+        position: absolute;
+        top:0;
+        right: 0;
+        width: 360px;
+        margin: 0 auto;
+        background-color: white;
     }
 
     .logo {
@@ -238,20 +246,25 @@ button {
     .header__inner {
         padding: 10px 0;
     }
+
     .top__title {
         font-size: 24px;
         margin-bottom: 10px;
+        line-height: normal;
     }
+
     .top__text {
         font-size: 13px;
         margin-bottom: 30px;
     }
+
     .top__inner {
         min-height: 367px;
     }
+
     .blockquote__text {
         max-width: 340px;
         margin-top: 70px;
+        margin-bottom: 80px;
     }
-
 }
