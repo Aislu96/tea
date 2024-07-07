@@ -249,5 +249,9 @@ button {
     .top__inner {
         min-height: 367px;
     }
+    .blockquote__text {
+        max-width: 340px;
+        margin-top: 70px;
+    }
 
 }
