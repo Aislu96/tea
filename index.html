@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+<div class="menu--close"></div>
 <header class="header">
     <div class="container">
         <div class="header__inner">
@@ -28,6 +28,11 @@
                     <span></span>
                 </button>
                 <ul class="menu__list">
+                    <li class="menu__close">
+                        <button class="menu__close-btn">
+                            <img src="images/close.svg" alt="close"/>
+                        </button>
+                    </li>
                     <!--            ul.menu__lust>li.menu__item*5>a.menu__link[href=#]-->
                     <li class="menu__item">
                         <a href="#" class="menu__link">Blank</a>
@@ -44,6 +49,37 @@
                     <li class="menu__item">
                         <a href="#" class="menu__link">Pu-erh</a>
                     </li>
+                    <li class="mobile-nav">
+                        <ul class="mobile-menu">
+                            <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Contact Us</a></li>
+                            <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Our Blog</a></li>
+                            <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Shipping and
+                                Delivery</a></li>
+                        </ul>
+                    </li>
+                    <ul class="mobile-actions">
+                        <li class="mobile-actions__item">
+                            <a href="#" class="mobile-actions__link">
+                                <img src="images/card.svg" alt="card icon">
+                            </a>
+                        </li>
+                        <li class="mobile-actions__item">
+                            <a href="#" class="mobile-actions__link">
+                                <img src="images/user.svg" alt="user icon">
+                            </a>
+                        </li>
+                        <li class="mobile-actions__item">
+                            <a href="#" class="mobile-actions__link">
+                                <img src="images/search.svg" alt="search icon"/>
+                            </a>
+                            <!--              <search>-->
+                            <!--                  <form action="">-->
+                            <!--                      <input type="search"/>-->
+                            <!--                      <button type="submit"></button>-->
+                            <!--                  </form>-->
+                            <!--              </search>-->
+                        </li>
+                    </ul>
                 </ul>
             </nav>
             <ul class="user-actions">
